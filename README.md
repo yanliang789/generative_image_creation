@@ -15,9 +15,9 @@
 • Download all the datasets
 • Start server
 
-    ```bash
-    python app.py
-    ```
+```bash
+python app.py
+```
 
 • use the following endpoints as need
 
