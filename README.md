@@ -9,17 +9,17 @@
 
 ## Usage
 
-• Clone this repository
-• Install libraries
-• Active virtual environment
-• Download all the datasets
-• Start server
+1. Clone this repository
+2. Software installation
+3. Active virtual environment
+4. Download all the datasets
+5. Start server
 
 ```bash
 python app.py
 ```
 
-• use the following endpoints as need
+6. use the following endpoints as need
 
 - hom page: http://127.0.0.1:8080/
 - upload sample: http://127.0.0.1:8080/add_sample
