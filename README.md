@@ -100,7 +100,7 @@ Note that the evaluation metrics are calculated using random latent vectors or r
 
 ## Training networks(celeba-hq dataset)
 
-I using pre-trained models which trained by StarGan v2
+I use pre-trained models which trained by StarGan v2
 To train StarGAN v2 from scratch, run the following commands. Generated images and network checkpoints will be stored in the `expr/samples` and `expr/checkpoints` directories, respectively. Training takes about three days on a single Tesla V100 GPU. Please see [here](https://github.com/clovaai/stargan-v2/blob/master/main.py#L86-L179) for training arguments and a description of them.
 
 ```bash
@@ -112,5 +112,4 @@ python main.py --mode train --num_domains 2 --w_hpf 1 \
 
 ## source
 
-I Use pre-train models from StarGAN v2, based on the pre-train models predict hairstyle images.
 The source code, pre-trained models, and dataset are available under [Creative Commons BY-NC 4.0](https://github.com/clovaai/stargan-v2/blob/master/LICENSE) license by NAVER Corporation.
