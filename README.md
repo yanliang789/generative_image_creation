@@ -7,8 +7,24 @@
 
 > **Abstract:** \* I Use pre-train models from StarGAN v2, based on the pre-train models predict hairstyle images.
 
-1. image-to-imgate traslation to transform pictures to match the trainning image size
-2. predict images.
+## Usage
+
+• Clone this repository
+• Install libraries
+• Active virtual environment
+• Download all the datasets
+• Start server
+
+    ```bash
+    python app.py
+    ```
+
+• use the following endpoints as need
+
+- hom page: http://127.0.0.1:8080/
+- upload sample: http://127.0.0.1:8080/add_sample
+- upload source: http://127.0.0.1:8080/add_src
+- genneate hairstyle: http://127.0.0.1:8080/style
 
 ## Software installation
 
